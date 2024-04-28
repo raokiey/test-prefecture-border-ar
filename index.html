@@ -133,7 +133,7 @@
 
 <!-- header and footer -->
 <div id="header"></div>
-<div id="footer"></div>
+<div id="footer">国土交通省「国土数値情報 行政区域データ」をQGISにて加工して使用</div>
 
 <!-- animation -->
 <div id="narrativebox" class="ef1">
@@ -144,6 +144,7 @@
 </div>
 
 <script>
+Q3D.Config.coord.latlon = true;
 Q3D.Config.AR.MND = 0.0;
 
 var container = document.getElementById("view"),
